@@ -95,7 +95,7 @@ public class LampListener implements Listener
 		        e.getPlayer().setItemInHand(null);
 			}
 			
-			e.getPlayer().getWorld().playSound(e.getClickedBlock().getLocation(), Sound.CLICK, 0.5F, 0.0F);
+			e.getPlayer().getWorld().playSound(e.getClickedBlock().getLocation(), Sound.UI_BUTTON_CLICK, 0.5F, 0.0F);
 			
 			return;
 		}
@@ -204,7 +204,7 @@ public class LampListener implements Listener
 			        e.getPlayer().updateInventory();
 				}
 				
-				e.getPlayer().getWorld().playSound(e.getClickedBlock().getLocation(), Sound.CLICK, 0.5F, 1.0F);
+				e.getPlayer().getWorld().playSound(e.getClickedBlock().getLocation(), Sound.UI_BUTTON_CLICK, 0.5F, 1.0F);
 				
 				return;
 			}
@@ -230,7 +230,7 @@ public class LampListener implements Listener
 			        e.getPlayer().setItemInHand(null);
 				}
 				
-				e.getPlayer().getWorld().playSound(e.getClickedBlock().getLocation(), Sound.CLICK, 0.5F, 0.0F);
+				e.getPlayer().getWorld().playSound(e.getClickedBlock().getLocation(), Sound.UI_BUTTON_CLICK, 0.5F, 0.0F);
 				
 				return;
 			}
@@ -264,6 +264,6 @@ public class LampListener implements Listener
 	        e.getPlayer().setItemInHand(null);
 		}
 
-		e.getPlayer().getWorld().playSound(e.getClickedBlock().getLocation(), Sound.CLICK, 0.5F, 1.0F);
+		e.getPlayer().getWorld().playSound(e.getClickedBlock().getLocation(), Sound.UI_BUTTON_CLICK, 0.5F, 1.0F);
 	}
 }

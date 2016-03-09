@@ -1,7 +1,7 @@
 package com.jacklinkproductions.LampControl;
 
-import net.minecraft.server.v1_8_R3.World;
-import org.bukkit.craftbukkit.v1_8_R3.CraftWorld;
+import net.minecraft.server.v1_9_R1.World;
+import org.bukkit.craftbukkit.v1_9_R1.CraftWorld;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;
